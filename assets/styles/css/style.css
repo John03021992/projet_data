@@ -172,7 +172,8 @@ a:active {
 .twitch_data_item img {
   width: 100%;
   border: 1px solid white;
-  border-radius: 0.3rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
 }
 
 .twitch_data_item h2 {
