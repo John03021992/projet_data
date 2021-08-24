@@ -73,11 +73,6 @@
  <?php include './controllers/game_list_controller.php'; ?>
 </div>
 
-      <!---OB START -->
-
-      <?php ob_start(); ?>
-      <script src="./assets/js/filter_month.js"></script>
-      <?php $pageJavascripts = ob_get_clean(); ?>
     </div>
   </div>
 </div>

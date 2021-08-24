@@ -71,7 +71,7 @@ a:active {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 9.5rem;
+  width: 10.1rem;
   height: 3rem;
   cursor: pointer;
   font-size: 0.8rem;
@@ -94,6 +94,7 @@ a:active {
   transition: background-color 0.2s ease-in-out;
   box-sizing: border-box;
   overflow: hidden;
+  border-radius: 0.3rem;
 }
 .option i {
   margin-left: 0.5rem;
@@ -102,14 +103,10 @@ a:active {
   background: #333333;
 }
 
-.select_month:focus .option {
+.select:focus .option {
   position: relative;
   pointer-events: all;
-}
-
-.select_stats:focus .option {
-  position: relative;
-  pointer-events: all;
+  z-index: 100;
 }
 
 .filter input {
@@ -174,14 +171,41 @@ a:active {
 
 .twitch_data_item img {
   width: 100%;
+  border: 1px solid white;
+  border-radius: 0.3rem;
 }
 
 .twitch_data_item h2 {
   font-size: 0.7rem;
+  font-weight: 700;
 }
 
 .twitch_data_item h3 {
   font-size: 0.5rem;
+}
+
+/* GAME INFO VIEW PAGE  */
+
+.game_info_card {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  margin: 6rem auto 0;
+  width: 90vw;
+  margin-bottom: 1rem;
+}
+
+.game_info_card img {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+}
+
+.game_info_card_stats {
+  width: 95%;
 }
 
 /*------------------------------------------- NAV */
@@ -201,6 +225,10 @@ nav {
   z-index: 13;
 }
 
+nav img {
+  width: 2.5rem;
+}
+
 /*------------------------------------------- LIVESEARCH */
 
 .search {
@@ -208,10 +236,9 @@ nav {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: 10px;
-  border: 2px solid #eec076;
+  border-radius: 0.5rem;
+  border: 2px solid #8a733e;
   outline: none;
-  background: white;
 }
 
 .search:focus {
@@ -290,7 +317,7 @@ nav {
 footer {
   display: flex;
   justify-content: center;
-  border-top: white 1px solid;
+  border-top: white 2px solid;
   background: #0e1320;
   padding: 0.5rem;
 }

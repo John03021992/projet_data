@@ -10,6 +10,7 @@
   </head>
   <body>
     <nav class="nav">
+      <a href="<?= $router->generate("home") ?>"><img src="./assets/images/s_logo.svg" alt="s logo"></a>
       <input
         class="search"
         name="search_text"
@@ -31,6 +32,7 @@
       
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/filter_month.js"></script>
     <?= $pageJavascripts ?? "" ?>
   </body>
 </html>
