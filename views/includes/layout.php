@@ -13,6 +13,9 @@
     <title>Twitch games, viewers and streamers Ranking</title>
   </head>
   <body>
+
+
+
     <nav class="nav">
       <a href="<?= $router->generate("home") ?>"><img src="./assets/images/s_logo.svg" alt="s logo"></a>
       <input
@@ -25,8 +28,21 @@
     </nav>
 
     <section class="livesearch-section"></section>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
+     <div class="content">
+      <img id="dark_hands"src="./assets/images/gamePictures/dark_hands.jpg" alt="blanck and white cotrollet picture">
 
-    <?= $pageContent ?>
+    </div>
+<!-- ------------------------------------------------------------try parallax---------------------------------------------------------------------- -->
+
+
+
+<?= $pageContent ?>
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
     <footer>
 
       <div class="center_logo">
@@ -35,8 +51,12 @@
      </div>
       
     </footer>
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/js/filter_month.js"></script>
     <?= $pageJavascripts ?? "" ?>
+
   </body>
 </html>
