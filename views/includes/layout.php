@@ -2,11 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitch games, viewers and streamers Ranking</title>
+    <meta name="description" content="This is a website who rank every games on twitch in 2021 by month, numbers of streamers, viewers and channels. ">
+    <link rel="shortcut icon" href="/assets/images/favico.ico">
+    <link rel="canonical" href=" https://www.ohmystream.com/">
     <link rel="stylesheet" href="./assets/styles/css/style.css" />
     <?= $pageCss ?? "" ?>
-    <title>Projet Data</title>
+    
   </head>
   <body>
     <nav class="nav">
