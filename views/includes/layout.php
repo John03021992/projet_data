@@ -30,7 +30,7 @@
     <section class="livesearch-section"></section>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
      <div class="content">
-      <img id="dark_hands"src="./assets/images/gamePictures/dark_hands.jpg" alt="blanck and white cotrollet picture">
+      <!-- <img id="dark_hands"src="./assets/images/gamePictures/dark_hands.jpg" alt="blanck and white cotrollet picture"> -->
 
     </div>
 <!-- ------------------------------------------------------------try parallax---------------------------------------------------------------------- -->
