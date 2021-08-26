@@ -11,7 +11,7 @@ Création d'un site web avec Twig et utilisation d'une base de données.
 
 🧐 About
 
-On doit travailler en POO (Objet)
+On doit travailler en Procedurale 
 
 Partie Obligatoire
 
